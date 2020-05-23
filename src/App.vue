@@ -4,15 +4,21 @@
       <router-view></router-view>
     </keep-alive>
     <MainTabBar/>
+    <Icon />
+    <SvgIcon />
   </div>
 </template>
 
 <script>
 import MainTabBar from 'content/mainTabbar/MainTabBar';
+import Icon from 'content/Icon/Icon'
+import SvgIcon from 'content/Icon/svg'
 export default {
   name: 'App',
   components: {
-    MainTabBar
+    MainTabBar,
+    Icon,
+    SvgIcon
   }
 }
 </script>

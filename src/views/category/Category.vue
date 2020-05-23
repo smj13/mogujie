@@ -1,442 +1,187 @@
 <template>
-  <div class="wrapper" ref="warpper">
-    <ul class="content">
-      <li>列表1</li>
-      <li>列表2</li>
-      <li>列表3</li>
-      <li>列表4</li>
-      <li>列表5</li>
-      <li>列表6</li>
-      <li>列表7</li>
-      <li>列表8</li>
-      <li>列表9</li>
-      <li>列表10</li>
-      <li>列表11</li>
-      <li>列表12</li>
-      <li>列表13</li>
-      <li>列表14</li>
-      <li>列表15</li>
-      <li>列表16</li>
-      <li>列表17</li>
-      <li>列表18</li>
-      <li>列表19</li>
-      <li>列表20</li>
-      <li>列表21</li>
-      <li>列表22</li>
-      <li>列表23</li>
-      <li>列表24</li>
-      <li>列表25</li>
-      <li>列表26</li>
-      <li>列表27</li>
-      <li>列表28</li>
-      <li>列表29</li>
-      <li>列表30</li>
-      <li>列表31</li>
-      <li>列表32</li>
-      <li>列表33</li>
-      <li>列表34</li>
-      <li>列表35</li>
-      <li>列表36</li>
-      <li>列表37</li>
-      <li>列表38</li>
-      <li>列表39</li>
-      <li>列表40</li>
-      <li>列表41</li>
-      <li>列表42</li>
-      <li>列表43</li>
-      <li>列表44</li>
-      <li>列表45</li>
-      <li>列表46</li>
-      <li>列表47</li>
-      <li>列表48</li>
-      <li>列表49</li>
-      <li>列表50</li>
-      <li>列表51</li>
-      <li>列表52</li>
-      <li>列表53</li>
-      <li>列表54</li>
-      <li>列表55</li>
-      <li>列表56</li>
-      <li>列表57</li>
-      <li>列表58</li>
-      <li>列表59</li>
-      <li>列表60</li>
-      <li>列表61</li>
-      <li>列表62</li>
-      <li>列表63</li>
-      <li>列表64</li>
-      <li>列表65</li>
-      <li>列表66</li>
-      <li>列表67</li>
-      <li>列表68</li>
-      <li>列表69</li>
-      <li>列表70</li>
-      <li>列表71</li>
-      <li>列表72</li>
-      <li>列表73</li>
-      <li>列表74</li>
-      <li>列表75</li>
-      <li>列表76</li>
-      <li>列表77</li>
-      <li>列表78</li>
-      <li>列表79</li>
-      <li>列表80</li>
-      <li>列表81</li>
-      <li>列表82</li>
-      <li>列表83</li>
-      <li>列表84</li>
-      <li>列表85</li>
-      <li>列表86</li>
-      <li>列表87</li>
-      <li>列表88</li>
-      <li>列表89</li>
-      <li>列表90</li>
-      <li>列表91</li>
-      <li>列表92</li>
-      <li>列表93</li>
-      <li>列表94</li>
-      <li>列表95</li>
-      <li>列表96</li>
-      <li>列表97</li>
-      <li>列表98</li>
-      <li>列表99</li>
-      <li>列表100</li>
-      <li>列表1</li>
-      <li>列表2</li>
-      <li>列表3</li>
-      <li>列表4</li>
-      <li>列表5</li>
-      <li>列表6</li>
-      <li>列表7</li>
-      <li>列表8</li>
-      <li>列表9</li>
-      <li>列表10</li>
-      <li>列表11</li>
-      <li>列表12</li>
-      <li>列表13</li>
-      <li>列表14</li>
-      <li>列表15</li>
-      <li>列表16</li>
-      <li>列表17</li>
-      <li>列表18</li>
-      <li>列表19</li>
-      <li>列表20</li>
-      <li>列表21</li>
-      <li>列表22</li>
-      <li>列表23</li>
-      <li>列表24</li>
-      <li>列表25</li>
-      <li>列表26</li>
-      <li>列表27</li>
-      <li>列表28</li>
-      <li>列表29</li>
-      <li>列表30</li>
-      <li>列表31</li>
-      <li>列表32</li>
-      <li>列表33</li>
-      <li>列表34</li>
-      <li>列表35</li>
-      <li>列表36</li>
-      <li>列表37</li>
-      <li>列表38</li>
-      <li>列表39</li>
-      <li>列表40</li>
-      <li>列表41</li>
-      <li>列表42</li>
-      <li>列表43</li>
-      <li>列表44</li>
-      <li>列表45</li>
-      <li>列表46</li>
-      <li>列表47</li>
-      <li>列表48</li>
-      <li>列表49</li>
-      <li>列表50</li>
-      <li>列表51</li>
-      <li>列表52</li>
-      <li>列表53</li>
-      <li>列表54</li>
-      <li>列表55</li>
-      <li>列表56</li>
-      <li>列表57</li>
-      <li>列表58</li>
-      <li>列表59</li>
-      <li>列表60</li>
-      <li>列表61</li>
-      <li>列表62</li>
-      <li>列表63</li>
-      <li>列表64</li>
-      <li>列表65</li>
-      <li>列表66</li>
-      <li>列表67</li>
-      <li>列表68</li>
-      <li>列表69</li>
-      <li>列表70</li>
-      <li>列表71</li>
-      <li>列表72</li>
-      <li>列表73</li>
-      <li>列表74</li>
-      <li>列表75</li>
-      <li>列表76</li>
-      <li>列表77</li>
-      <li>列表78</li>
-      <li>列表79</li>
-      <li>列表80</li>
-      <li>列表81</li>
-      <li>列表82</li>
-      <li>列表83</li>
-      <li>列表84</li>
-      <li>列表85</li>
-      <li>列表86</li>
-      <li>列表87</li>
-      <li>列表88</li>
-      <li>列表89</li>
-      <li>列表90</li>
-      <li>列表91</li>
-      <li>列表92</li>
-      <li>列表93</li>
-      <li>列表94</li>
-      <li>列表95</li>
-      <li>列表96</li>
-      <li>列表97</li>
-      <li>列表98</li>
-      <li>列表99</li>
-      <li>列表100</li>
-      <li>列表1</li>
-      <li>列表2</li>
-      <li>列表3</li>
-      <li>列表4</li>
-      <li>列表5</li>
-      <li>列表6</li>
-      <li>列表7</li>
-      <li>列表8</li>
-      <li>列表9</li>
-      <li>列表10</li>
-      <li>列表11</li>
-      <li>列表12</li>
-      <li>列表13</li>
-      <li>列表14</li>
-      <li>列表15</li>
-      <li>列表16</li>
-      <li>列表17</li>
-      <li>列表18</li>
-      <li>列表19</li>
-      <li>列表20</li>
-      <li>列表21</li>
-      <li>列表22</li>
-      <li>列表23</li>
-      <li>列表24</li>
-      <li>列表25</li>
-      <li>列表26</li>
-      <li>列表27</li>
-      <li>列表28</li>
-      <li>列表29</li>
-      <li>列表30</li>
-      <li>列表31</li>
-      <li>列表32</li>
-      <li>列表33</li>
-      <li>列表34</li>
-      <li>列表35</li>
-      <li>列表36</li>
-      <li>列表37</li>
-      <li>列表38</li>
-      <li>列表39</li>
-      <li>列表40</li>
-      <li>列表41</li>
-      <li>列表42</li>
-      <li>列表43</li>
-      <li>列表44</li>
-      <li>列表45</li>
-      <li>列表46</li>
-      <li>列表47</li>
-      <li>列表48</li>
-      <li>列表49</li>
-      <li>列表50</li>
-      <li>列表51</li>
-      <li>列表52</li>
-      <li>列表53</li>
-      <li>列表54</li>
-      <li>列表55</li>
-      <li>列表56</li>
-      <li>列表57</li>
-      <li>列表58</li>
-      <li>列表59</li>
-      <li>列表60</li>
-      <li>列表61</li>
-      <li>列表62</li>
-      <li>列表63</li>
-      <li>列表64</li>
-      <li>列表65</li>
-      <li>列表66</li>
-      <li>列表67</li>
-      <li>列表68</li>
-      <li>列表69</li>
-      <li>列表70</li>
-      <li>列表71</li>
-      <li>列表72</li>
-      <li>列表73</li>
-      <li>列表74</li>
-      <li>列表75</li>
-      <li>列表76</li>
-      <li>列表77</li>
-      <li>列表78</li>
-      <li>列表79</li>
-      <li>列表80</li>
-      <li>列表81</li>
-      <li>列表82</li>
-      <li>列表83</li>
-      <li>列表84</li>
-      <li>列表85</li>
-      <li>列表86</li>
-      <li>列表87</li>
-      <li>列表88</li>
-      <li>列表89</li>
-      <li>列表90</li>
-      <li>列表91</li>
-      <li>列表92</li>
-      <li>列表93</li>
-      <li>列表94</li>
-      <li>列表95</li>
-      <li>列表96</li>
-      <li>列表97</li>
-      <li>列表98</li>
-      <li>列表99</li>
-      <li>列表100</li>
-      <li>列表1</li>
-      <li>列表2</li>
-      <li>列表3</li>
-      <li>列表4</li>
-      <li>列表5</li>
-      <li>列表6</li>
-      <li>列表7</li>
-      <li>列表8</li>
-      <li>列表9</li>
-      <li>列表10</li>
-      <li>列表11</li>
-      <li>列表12</li>
-      <li>列表13</li>
-      <li>列表14</li>
-      <li>列表15</li>
-      <li>列表16</li>
-      <li>列表17</li>
-      <li>列表18</li>
-      <li>列表19</li>
-      <li>列表20</li>
-      <li>列表21</li>
-      <li>列表22</li>
-      <li>列表23</li>
-      <li>列表24</li>
-      <li>列表25</li>
-      <li>列表26</li>
-      <li>列表27</li>
-      <li>列表28</li>
-      <li>列表29</li>
-      <li>列表30</li>
-      <li>列表31</li>
-      <li>列表32</li>
-      <li>列表33</li>
-      <li>列表34</li>
-      <li>列表35</li>
-      <li>列表36</li>
-      <li>列表37</li>
-      <li>列表38</li>
-      <li>列表39</li>
-      <li>列表40</li>
-      <li>列表41</li>
-      <li>列表42</li>
-      <li>列表43</li>
-      <li>列表44</li>
-      <li>列表45</li>
-      <li>列表46</li>
-      <li>列表47</li>
-      <li>列表48</li>
-      <li>列表49</li>
-      <li>列表50</li>
-      <li>列表51</li>
-      <li>列表52</li>
-      <li>列表53</li>
-      <li>列表54</li>
-      <li>列表55</li>
-      <li>列表56</li>
-      <li>列表57</li>
-      <li>列表58</li>
-      <li>列表59</li>
-      <li>列表60</li>
-      <li>列表61</li>
-      <li>列表62</li>
-      <li>列表63</li>
-      <li>列表64</li>
-      <li>列表65</li>
-      <li>列表66</li>
-      <li>列表67</li>
-      <li>列表68</li>
-      <li>列表69</li>
-      <li>列表70</li>
-      <li>列表71</li>
-      <li>列表72</li>
-      <li>列表73</li>
-      <li>列表74</li>
-      <li>列表75</li>
-      <li>列表76</li>
-      <li>列表77</li>
-      <li>列表78</li>
-      <li>列表79</li>
-      <li>列表80</li>
-      <li>列表81</li>
-      <li>列表82</li>
-      <li>列表83</li>
-      <li>列表84</li>
-      <li>列表85</li>
-      <li>列表86</li>
-      <li>列表87</li>
-      <li>列表88</li>
-      <li>列表89</li>
-      <li>列表90</li>
-      <li>列表91</li>
-      <li>列表92</li>
-      <li>列表93</li>
-      <li>列表94</li>
-      <li>列表95</li>
-      <li>列表96</li>
-      <li>列表97</li>
-      <li>列表98</li>
-      <li>列表99</li>
-      <li>列表100</li>
-    </ul>
+  <div id="category">
+    <NavBar class="nav-bar">
+      <div slot="center">商品分类</div>
+    </NavBar>
+    <div class="content">
+      <TabMenu 
+        :categories="categories"
+        @selectItem="selectItem"
+      />
+      <Scroll 
+        id="tab-content" 
+        ref="scroll"
+        :data='[categoryData]'
+        :probeType="3"
+        @scroll='contentScroll'
+      >
+        <div>
+          <TabContentCategory 
+            :subcategories='showSubcategory'
+          />
+          <TabControl 
+            :titles="['综合', '新品', '销量']"
+            @tabClick='tabClick'
+          />
+          <TabContentDetail
+            :categoryDetail='showCategoryDetail'
+          />
+        </div>
+      </Scroll>
+      <BackTop  
+        class="back-top" 
+        @click.native="backTop"
+        v-show='isShowBackTop'
+      />
+    </div>
   </div>
 </template>
 
 <script>
-import BScroll from 'better-scroll';
+import NavBar from 'common/navbar/NavBar'
+import TabMenu from './childComps/TabMenu'
+import TabControl from 'content/tabControl/TabControl'
+import TabContentCategory from './childComps/TabContentCategory'
+import TabContentDetail from './childComps/TabContentDetail'
+import Scroll from 'common/scroll/Scroll';
+import BackTop from 'content/backTop/BackTop'
+
+
+import {getCategory, getSubcategory, getCategoryDetail} from 'network/category'
+import {itemListenerMixin, backTopMixin} from '@/common/mixin'
+
+
+
 export default {
   name: 'Category',
+  components: {
+    NavBar,
+    TabMenu,
+    TabControl,
+    TabContentCategory,
+    TabContentDetail,
+    Scroll,
+    BackTop
+  },
   data(){
     return {
-      scroll: null
+      categories: [],
+      categoryData: {},
+      currentIndex: -1,
+      currentType: 'pop',
     }
   },
-  mounted(){
-    this.scroll = new BScroll(this.$refs.warpper,{
-      probeType: 3,
-      pullUpLoad: true
-    })
-    // this.scroll.on('scroll',(position)=>{
-    //   // console.log(position)
-    // })
-    this.scroll.on('pullingUp',()=>{
-      console.log('啦了')
-      setTimeout(()=>{
-        this.scroll.finishPullUp();
-      },2000)
-    })
+  mixins: [itemListenerMixin,backTopMixin],
+  created() {
+    this._getCategory()
+  },
+  computed: {
+    showSubcategory() {
+      if(this.currentIndex === -1) return {}
+      return this.categoryData[this.currentIndex].subcategories
+    },
+    showCategoryDetail() {
+      if(this.currentIndex === -1) return []
+      return this.categoryData[this.currentIndex].categoryDetail[this.currentType]
+    }
+  },
+  methods: {
+    _getCategory() {
+      getCategory().then(res=>{
+        //1. 获取分类数据
+        this.categories = res.data.category.list
+        //2. 初始化每个类别的子数据
+        for(let i=0; i< this.categories.length; i++){
+          this.categoryData[i] = {
+            subcategories: {},
+            categoryDetail: {
+              'pop': [],
+              'new': [],
+              'sell': []
+            }
+          }
+        }
+        //3. 请求第一个分类的数据
+        this._getSubcatecories(0)
+      })
+    },
+    _getSubcatecories(index) {
+      this.currentIndex = index
+      const maitKey = this.categories[index].maitKey
+      getSubcategory(maitKey).then(res=>{
+        this.categoryData[index].subcategories = res.data
+        this.categoryData = {...this.categoryData}
+        this._getCategoryDetail('pop')
+        this._getCategoryDetail('sell')
+        this._getCategoryDetail('new')
+      })
+    },
+    _getCategoryDetail(type) {
+      // 1.获取请求的miniWallkey
+      const miniWallkey = this.categories[this.currentIndex].miniWallkey
+      // 2.发送请求，传入miniWallkey和Type
+      getCategoryDetail(miniWallkey, type).then(res=>{
+        // 3.保存数据
+        this.categoryData[this.currentIndex].categoryDetail[type] = res
+        this.categoryData = {...this.categoryData}
+      })
+    },
+
+    selectItem(index) {
+      this._getSubcatecories(index)
+    },
+
+    tabClick(index) {
+      switch(index) {
+        case 0:
+          this.currentType = 'pop'
+          break;
+        case 1:
+          this.currentType = 'new'
+          break
+        case 2:
+          this.currentType = 'sell'
+          break
+      }
+    },
+    contentScroll(position) {
+      this.isShowBackTop = (-position.y) > 800
+    }
   }
 }
 </script>
 
 <style scoped>
-.wrapper {
-  height: 150px;
-  background-color: red;
+#category {
+  height: 100vh;
+}
+
+.nav-bar {
+  background-color: var(--color-tint);
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  z-index: 999;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 49px;
+  display: flex;
   overflow: hidden;
-  /* overflow-y: scroll; */
+}
+
+#tab-content {
+  height: 100%;
+  flex: 1;
+}
+
+.back-top {
+  position: fixed;
+  bottom: 55px;
+  right: 5px;
 }
 </style>

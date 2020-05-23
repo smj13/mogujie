@@ -9,16 +9,16 @@
       v-show="isTabFixed"
     />
     <Scroll 
-    class="content" 
-    ref="scroll"
-    :probeType="3"
-    @scroll='contentScroll'
-    :pullUpLoad="true"
-    @pullingUp="loadMore"
+      class="content"
+      ref="scroll"
+      :probeType="3"
+      @scroll='contentScroll'
+      :pullUpLoad="true"
+      @pullingUp="loadMore"
     >
       <HomeSwiper 
-      :banners='banners'
-      @swiperImageLoad="swiperImageLoad"
+        :banners='banners'
+        @swiperImageLoad="swiperImageLoad"
       />
       <HomeRecommendView :recommends='recommends'/>
       <HomeFeatureView />
@@ -48,7 +48,7 @@ import Scroll from 'common/scroll/Scroll'
 import BackTop from 'content/backTop/BackTop'
 
 import {getHomeMultidata, getHomeGoods} from 'network/home'
-import {itemListenerMixin} from '@/common/mixin'
+import {itemListenerMixin, backTopMixin} from '@/common/mixin'
 
 
 export default {
@@ -63,7 +63,7 @@ export default {
     Scroll,
     BackTop
   },
-  mixins: [itemListenerMixin],
+  mixins: [itemListenerMixin,backTopMixin],
   data() {
     return {
       banners: [],
@@ -74,7 +74,6 @@ export default {
         'sell': {page: 0,list: []}
       },
       currentType: 'pop',
-      isShowBackTop: false,
       tabOffsetTop: 0,
       isTabFixed: false,
       saveY: 0
@@ -123,9 +122,6 @@ export default {
       }
       this.$refs.tabControl1.currentIndex = index
       this.$refs.tabControl2.currentIndex = index
-    },
-    backTop() {
-      this.$refs.scroll.scrollTo(0,0)
     },
     contentScroll(position){
       // 判断BackTop是否显示

@@ -42,7 +42,7 @@ import BackTop from 'content/backTop/BackTop'
 import Scroll from 'common/scroll/Scroll'
 
 import {getDetail,getRecommend, GoodsInfo, ShopInfo, GoodsParam} from 'network/detail'
-import {itemListenerMixin} from '@/common/mixin'
+import {itemListenerMixin, backTopMixin} from '@/common/mixin'
 
 export default {
   name: 'Detail',
@@ -59,7 +59,7 @@ export default {
     Scroll,
     GoodsList,
   },
-  mixins: [itemListenerMixin],
+  mixins: [itemListenerMixin, backTopMixin],
   data() {
     return {
       iid: null,
@@ -72,8 +72,7 @@ export default {
       recommends: [],
       themeTopYs: [],
       getThemeTopY: null,
-      currentIndex: 0,
-      isShowBackTop: false
+      currentIndex: 0
     }
   },
   created() {
@@ -163,9 +162,6 @@ export default {
           this.$refs.nav.currentIndex = this.currentIndex
         }
       }
-    },
-    backTop() {
-      this.$refs.scroll.scrollTo(0,0)
     },
     addToCart() {
       // 获取购物车需要的商品信息
